@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="shortcut icon" href="assets/img/in_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div><img src="assets/img/in_icon.png" alt=""></div>
+
+            <div class="nav-link" id="navbar">
+                <div id="sidebar_close_toogle">
+                    <img src="assets/img/icon/i_x.png" alt="" onclick="sidebar_close_toogle()">
+                </div>
+                <a href="#" class="active"><img src="assets/img/icon/i_home_hover.png" alt="i_home"> Home</a>
+                <a href="#" onmouseover="hover(this)" onmouseout="unhover(this)"><img src="assets/img/icon/i_network.png" alt="i_network"> Network</a>
+                <a href="#" onmouseover="hover(this)" onmouseout="unhover(this)"><img src="assets/img/icon/i_job.png" alt="i_job"> Jobs</a>
+                <a href="#" onmouseover="hover(this)" onmouseout="unhover(this)"><img src="assets/img/icon/i_notification.png" alt="i_notification"> Notifications</a>
+            </div>
+
+            <div>
+                <div id="sidebar_toogle" onclick="toogle_sidebar()">
+                    <img src="assets/img/icon/i_hamburger_menu.png" alt="">
+                </div>
+                <img src="assets/img/in_profile.jpg" alt="" style="float: right; border-radius: 50%">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <aside id="profile">
+            <img src="assets/img/in_profile.jpg" alt="">
+            <h4>Dicky Julian Pratama</h4>
+            <p>Fullstack Web Developer at Zeex</p>
+            <a href="https://www.linkedin.com/in/dicky-julian/">see profile</a>
+            <div class="in-info">
+                <div style="border-right: 1px solid #f1f1f1;">
+                    <h4>749</h4>
+                    <p>Connections</p>
+                </div>
+                <div>
+                    <h4>56</h4>
+                    <p>Views</p>
+                </div>
+            </div>
+        </aside>
+
+        <div id="content">
+            <div class="container">
+                <div class="create-article">
+                    <input type="text" placeholder="Write an article . . .">
+                    <img src="assets/img/icon/i_send_email.png" alt="">
+                </div>
+
+                <!-- 1 -->
+                <div class="article">
+                    <div class="profile">
+                        <img src="assets/img/img-account-1.jpg" alt="">
+                        <div>
+                            <h5>Cheryl Gloria Mahargo</h5>
+                            <p>Frontend Developer at Zeex</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <article>
+                            <p>
+                                Hi wise people, How about yout day? I hope that's fine for you. I have a fun tip for you. If you want to deploy your own website but don't yet have the skills, what do you do?
+                            </p>
+                        </article>
+                        <img src="assets/img/img-article-1.jpg" alt="">
+                        <div class="explain-bar">
+                            <h5>How to Publish a no-code website in 10 minutes</h5>
+                            <a>zeex.article</a>
+                        </div>
+                    </div>
+                    <div class="action-bar">
+                        <img src="assets/img/icon/i_love.png" alt="">
+                        <p>1.2k</p>
+                        <img src="assets/img/icon/i_comment.png" alt="">
+                        <p>76</p>
+                        <img src="assets/img/icon/i-share.png" alt="">
+                        <p>11</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="article">
+                    <div class="profile">
+                        <img src="assets/img/img-account-2.jpg" alt="">
+                        <div>
+                            <h5>Joyce Chu</h5>
+                            <p>Talent Manager at GoJek</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <article>
+                            <p>
+                                Just 18 months since it was launched in Vietnam, GoViet has surpassed 200 million bookings - doubling its growth rate over the last six months! We’re proud that GoViet has quickly grown to be one of the country’s leading on-demand multi-service platforms, and is connecting millions of Vietnamese consumers to more than 150,000 drivers and 80,000 food merchants. 
+                            </p>
+                            <p>
+                                Well done, GoViet team, and here’s to even greater milestones ahead!
+                            </p>
+                            <p class="hastag">
+                                #growth #milestones #vietnam #goviet #gojek
+                            </p>
+                        </article>
+                        <img src="assets/img/img-article-2.jpg" alt="">
+                    </div>
+                    <div class="action-bar">
+                        <img src="assets/img/icon/i_love.png" alt="">
+                        <p>1.2k</p>
+                        <img src="assets/img/icon/i_comment.png" alt="">
+                        <p>76</p>
+                        <img src="assets/img/icon/i-share.png" alt="">
+                        <p>11</p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="article">
+                    <div class="profile">
+                        <img src="assets/img/img-account-3.jpg" alt="">
+                        <div>
+                            <h5>Joy Young</h5>
+                            <p>Senior Creative Strategist at Zeex</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <article>
+                            <p>
+                                As a person who really enjoys films especially the plot to twist of the story. This Netflix campaign will make you scared to leave the house.
+                            </p>
+                        </article>
+                        <img src="assets/img/img-article-3.jpg" alt="">
+                        <div class="explain-bar">
+                            <h5>Reedem your code for a month free at Netflix <a class="hastag">#stayathome</a></h5>
+                            <a>Netflix.com</a>
+                        </div>
+                    </div>
+                    <div class="action-bar">
+                        <img src="assets/img/icon/i_love.png" alt="">
+                        <p>1.2k</p>
+                        <img src="assets/img/icon/i_comment.png" alt="">
+                        <p>76</p>
+                        <img src="assets/img/icon/i-share.png" alt="">
+                        <p>11</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ad-content">
+            <p>Try LinkeIn Jobs</p>
+            <img src="assets/img/in_profile.jpg" alt="" style="border-radius: 50%">
+            <img src="assets/img/in-jobs.png" alt="" style="border-radius: 5px">
+            <h4>Hiring mode easy</h4>
+            <button type="button">Start Job Post</button>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
